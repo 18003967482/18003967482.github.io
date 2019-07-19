@@ -1,0 +1,51 @@
+html {
+    overflow-x: hidden;
+}
+
+#particles-js {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -100;
+}
+
+.circle {
+    border: 2px solid rgb(86, 153, 230);
+    border-radius: 10px;
+}
+
+.circle:hover {
+    box-shadow: 0px 0px 5px rgb(86, 153, 230);
+}
+#myInfo{
+    margin-right: 20px;
+}
+#box {
+    margin-top: 30px;
+}
+
+#myInfo>div {
+    padding: 10px;
+}
+
+.icon img {
+    border-radius: 15%;
+}
+.pic {
+    width: 220px;
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.pic:hover {
+    box-shadow: 0px 0px 4px;
+}
+.pic img{
+    width: 220px;
+}
+#section>div{
+    padding: 15px;
+}
